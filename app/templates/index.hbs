@@ -1,0 +1,9 @@
+<h1> Welcome To The Answer Board</h1>
+
+<ul class="questionList">
+  {{#each model as |question|}}
+     <li>{{question.user}} asks: {{question.question}}</li>
+  {{/each}}
+</ul>
+
+{{new-question saveQuestion="saveQuestion"}}
