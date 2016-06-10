@@ -2,7 +2,7 @@
 
 <ul class="questionList">
   {{#each model as |question|}}
-     <li>{{question.user}} asks: {{question.question}}</li>
+     {{question-tile question=question delete="delete"}}
   {{/each}}
 </ul>
 
