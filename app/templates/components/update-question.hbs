@@ -1,0 +1,18 @@
+{{#if updateQuestion}}
+  <h1>Update {{question.questionText}}</h1>
+
+      <form>
+          <label for="user">User</label>
+          {{input value=user placeholder=question.user }}
+
+          <label for="questionText">Question</label>
+          {{input value=questionText placeholder=question.questionText}}
+
+          <label for="note">Notes</label>
+          {{input value=note placeholder=question.note}}
+
+        <button {{action 'update' question}}>Save Updates</button>
+      </form>
+{{else}}
+    <button {{action 'updateQuestion'}}>Update this Question</button>
+{{/if}}

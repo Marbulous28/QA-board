@@ -1,5 +1,3 @@
 <li>
-  {{question.user}} asks: {{question.question}}
-  <button {{action 'delete' question}}>Delete</button>
-
+  {{#link-to 'question' question.id}} {{question.user}} asks: {{question.questionText}} {{/link-to}}
 </li>
