@@ -1,4 +1,4 @@
-<h4> {{model.user}} asks: {{model.questionText}} </h4>
+<h1> {{model.user}} asks: {{model.questionText}} </h1>
 {{question-detail  question=model delete="delete"}}
 {{update-question question=model update="update"}}
 <button class="btn btn-danger"{{action 'delete' model}}>Delete This Post</button>
