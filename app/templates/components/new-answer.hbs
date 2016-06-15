@@ -1,0 +1,10 @@
+<h1>Post an Answer to this Question</h1>
+<form>
+  <label for="answerUser">User</label>
+  {{input value=answerUser}}
+
+  <label for="answerText">answer</label>
+  {{input value=answerText}}
+
+  <button {{action 'postAnswer'}}>Post Answer</button>
+</form>
