@@ -4,11 +4,6 @@
 <button class="btn btn-danger"{{action 'delete' model}}>Delete This Post</button>
 {{new-answer question=model postAnswer="postAnswer"}}
 
-
-
-
-
-<h5>Answers: </h5>
 <ul>
   {{#each model.answers as |answer|}}
     <li>{{answer.answerUser}} asks: {{answer.answerText}}</li>
