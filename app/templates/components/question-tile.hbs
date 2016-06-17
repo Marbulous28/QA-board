@@ -1,3 +1,3 @@
-<li>
-  {{answer-helper question}} {{#link-to 'question' question.id}} {{question.user}} asks: {{question.questionText}} {{/link-to}}
+<li class="questionBox">
+  {{answer-helper question}} {{#link-to 'question' question.id}} <span class="fontStyles">{{question.user}} asks: {{question.questionText}} </span>{{/link-to}}
 </li>

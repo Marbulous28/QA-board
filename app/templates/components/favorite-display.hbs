@@ -1,5 +1,5 @@
 <ul>
 {{#each favoriteQuestions.questions as |question|}}
-  <li>{{#link-to 'question' question.id}}{{question.user}} asks: {{question.questionText}}{{/link-to}}</li>
+  <li class="favoriteQuestionsBox">{{#link-to 'question' question.id}}<span class="fontStyles">{{question.user}} asks: {{question.questionText}}</span>{{/link-to}}</li>
 {{/each}}
 </ul>

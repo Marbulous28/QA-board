@@ -1,3 +1,35 @@
 ul {
   list-style-type: none;
 }
+
+.questionBox {
+  border-radius: 29px 29px 29px 29px;
+  -moz-border-radius: 29px 29px 29px 29px;
+  -webkit-border-radius: 29px 29px 29px 29px;
+  border: 0px solid #000000;
+  background-color: #50c2bc;
+  margin: 20px 20px 20px 20px;
+  padding: 40px 40px 40px 40px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 150%;
+  color: white;
+}
+
+.favoriteQuestionsBox {
+    border-radius: 29px 29px 29px 29px;
+    -moz-border-radius: 29px 29px 29px 29px;
+    -webkit-border-radius: 29px 29px 29px 29px;
+    border: 0px solid #000000;
+    background-color: #9e1b1b;
+    margin: 20px 20px 20px 20px;
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 150%;
+    color: white;
+}
+
+.fontStyles {
+  color: white;
+}
