@@ -3,7 +3,6 @@
 {{update-question question=model update="update"}}
 <button class="btn btn-danger"{{action 'delete' model}}>Delete This Post</button>
 {{new-answer question=model postAnswer="postAnswer"}}
-
 <ul>
   {{#each model.answers as |answer|}}
     <li>{{answer.answerUser}} asks: {{answer.answerText}}</li>
