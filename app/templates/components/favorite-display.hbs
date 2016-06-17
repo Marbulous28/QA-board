@@ -1,0 +1,5 @@
+<ul>
+{{#each favoriteQuestions.questions as |question|}}
+  <li>{{#link-to 'question' question.id}}{{question.user}} asks: {{question.questionText}}{{/link-to}}</li>
+{{/each}}
+</ul>
